@@ -59,7 +59,7 @@ Ce projet fournit des scripts pour nettoyer les messages Discord, y compris les 
     - Cherchez une requête vers `discord.com/api/v9/users/@me`.
 
 5. **Copier le token utilisateur** :
-    - Dans les en-têtes de la requête, trouvez `Authorization` et copiez le token. dans `TOKEN = ''` du fichier app.py
+    - Dans les en-têtes de la requête, trouvez `Authorization` et copiez le token. dans `DISCORD_TOKEN=` du fichier app.py
     - Renseignez `USER_ID` par votre propre ID utilisateur, que vous pouvez obtenir en activant le mode développeur dans Discord et en cliquant droit sur votre profil pour copier l'ID.
 
 ## Utilisation
