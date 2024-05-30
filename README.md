@@ -76,6 +76,11 @@ Nettoie les messages dans un serveur spécifique. L'ID du serveur est demandé l
 
 Fournit des fonctions utilitaires pour gérer les couleurs dans le terminal et charger les variables d'environnement.
 
+## Limitations
+
+- **Messages privés (DMs)** : Vous devez avoir le MP ouvert pour que les messages soient trouvés et supprimés.
+- **Enregistrements par d'autres bots** : Si d'autres bots comme Nightbot enregistrent les messages, ces enregistrements ne seront pas supprimés par ces scripts. Les scripts ne suppriment que les messages directement sur Discord.
+
 ## Sécurité
 
 - Ne partagez jamais votre token utilisateur et stockez-le de manière sécurisée.
