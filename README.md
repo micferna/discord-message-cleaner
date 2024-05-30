@@ -43,6 +43,25 @@ Ce projet fournit des scripts pour nettoyer les messages Discord, y compris les 
     EXCLUDED_GUILD_IDS=ID_DE_VOTRE_GUILDE_A_EXCLURE,ID_D_UNE_AUTRE_GUILDE
     ```
 
+
+## Récupérer le DISCORD_TOKEN
+
+1. **Ouvrir Discord dans le navigateur** :
+    - Connectez-vous à votre compte Discord.
+
+2. **Ouvrir les outils de développement** :
+    - Dans Chrome, appuyez sur `F12` ou faites un clic droit et sélectionnez "Inspecter".
+
+3. **Accéder à l'onglet Réseau (Network)** :
+    - Rafraîchissez la page (`Ctrl+R` ou `F5`).
+
+4. **Rechercher la requête vers l'API Discord** :
+    - Cherchez une requête vers `discord.com/api/v9/users/@me`.
+
+5. **Copier le token utilisateur** :
+    - Dans les en-têtes de la requête, trouvez `Authorization` et copiez le token. dans `TOKEN = ''` du fichier app.py
+    - Renseignez `USER_ID` par votre propre ID utilisateur, que vous pouvez obtenir en activant le mode développeur dans Discord et en cliquant droit sur votre profil pour copier l'ID.
+
 ## Utilisation
 
 1. Exécutez le script principal `main.py` pour accéder au menu interactif :
@@ -57,6 +76,7 @@ Ce projet fournit des scripts pour nettoyer les messages Discord, y compris les 
     - `2` : Nettoyer les messages dans tous les serveurs sauf ceux exclus
     - `3` : Nettoyer les messages dans un serveur spécifique (vous serez invité à entrer l'ID du serveur)
     - `4` : Quitter
+
 
 ## Détails des scripts
 
