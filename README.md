@@ -1,3 +1,9 @@
+![Logo Discord](https://zupimages.net/up/23/26/rumo.png)
+[Rejoignez le Discord !](https://discord.gg/rSfTxaW)
+
+[![Utilisateurs en ligne](https://img.shields.io/discord/347412941630341121?style=flat-square&logo=discord&colorB=7289DA)](https://discord.gg/347412941630341121)
+---
+
 # Discord Message Cleaner
 
 Ce projet fournit des scripts Python pour nettoyer les messages Discord, y compris les messages privés (DMs) et les messages dans les serveurs. Les scripts sont organisés de manière modulaire et offrent une interface utilisateur simple pour sélectionner l'action souhaitée. Idéal pour maintenir la propreté de vos communications Discord.
