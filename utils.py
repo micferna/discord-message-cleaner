@@ -19,7 +19,8 @@ def print_color(text, color):
         'green': Fore.GREEN,
         'yellow': Fore.YELLOW,
         'blue': Fore.BLUE,
-        'cyan': Fore.CYAN
+        'cyan': Fore.CYAN,
+        'white': Fore.WHITE
     }
     print(f"{colors[color]}{text}{Style.RESET_ALL}")
 
