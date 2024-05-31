@@ -1,6 +1,7 @@
 from clean_dms import main as clean_dms
 from clean_guild_messages import main as clean_guild_messages
 from clean_specific_guild import main as clean_specific_guild
+from backup_guild_messages import main as backup_guild_messages
 from utils import print_color
 
 def menu():
@@ -8,7 +9,8 @@ def menu():
     print_color("1. Nettoyer les messages privés (DMs)", "blue")
     print_color("2. Nettoyer les messages dans tous les serveurs sauf ceux exclus", "blue")
     print_color("3. Nettoyer les messages dans un serveur spécifique", "blue")
-    print_color("4. Quitter", "red")
+    print_color("4. Sauvegarder les messages d'un serveur spécifique", "blue")
+    print_color("0. Quitter", "red")
     choice = input("Sélectionnez une option: ")
 
     if choice == '1':
@@ -19,6 +21,9 @@ def menu():
         guild_id = input("Entrez l'ID du serveur à nettoyer : ")
         clean_specific_guild(guild_id)
     elif choice == '4':
+        guild_id = input("Entrez l'ID du serveur pour backup : ")
+        backup_guild_messages(guild_id)
+    elif choice == '0':
         print_color("Au revoir!", "cyan")
     else:
         print_color("Choix invalide. Veuillez réessayer.", "red")

@@ -1,12 +1,13 @@
 # Discord Message Cleaner
 
-Ce projet fournit des scripts pour nettoyer les messages Discord, y compris les messages privés (DMs) et les messages dans les serveurs. Les scripts sont organisés de manière modulaire pour faciliter leur utilisation et leur gestion.
+Ce projet fournit des scripts Python pour nettoyer les messages Discord, y compris les messages privés (DMs) et les messages dans les serveurs. Les scripts sont organisés de manière modulaire et offrent une interface utilisateur simple pour sélectionner l'action souhaitée. Idéal pour maintenir la propreté de vos communications Discord.
 
 ## Fonctionnalités
 
 - Nettoyer les messages privés (DMs).
 - Nettoyer les messages dans tous les serveurs, à l'exception de ceux exclus.
 - Nettoyer les messages dans un serveur spécifique.
+- Sauvegarder les messages dans un serveur spécifique sans les supprimer.
 
 ## Prérequis
 
@@ -75,8 +76,8 @@ Ce projet fournit des scripts pour nettoyer les messages Discord, y compris les 
     - `1` : Nettoyer les messages privés (DMs)
     - `2` : Nettoyer les messages dans tous les serveurs sauf ceux exclus
     - `3` : Nettoyer les messages dans un serveur spécifique (vous serez invité à entrer l'ID du serveur)
-    - `4` : Quitter
-
+    - `4` : Sauvegarder les messages dans un serveur spécifique (vous serez invité à entrer l'ID du serveur)
+    - `0` : Quitter
 
 ## Détails des scripts
 
@@ -91,6 +92,10 @@ Nettoie les messages dans tous les serveurs, à l'exception de ceux spécifiés 
 ### `clean_specific_guild.py`
 
 Nettoie les messages dans un serveur spécifique. L'ID du serveur est demandé lors de l'exécution du script.
+
+### `backup_guild_messages.py`
+
+Sauvegarde les messages dans un serveur spécifique sans les supprimer. L'ID du serveur est demandé lors de l'exécution du script.
 
 ### `utils.py`
 

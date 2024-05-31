@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from colorama import init, Fore, Style
+import json
 
 # Initialiser colorama
 init(autoreset=True)
@@ -21,3 +22,8 @@ def print_color(text, color):
         'cyan': Fore.CYAN
     }
     print(f"{colors[color]}{text}{Style.RESET_ALL}")
+
+def save_messages(file_name, messages):
+    with open(f"{file_name}.json", 'w', encoding='utf-8') as file:
+        json.dump(messages, file, ensure_ascii=False, indent=4)
+    print_color(f"Messages sauvegardés dans {file_name}.json", "green")
