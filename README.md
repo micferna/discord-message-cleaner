@@ -25,7 +25,7 @@ Ce projet fournit des scripts Python pour nettoyer les messages Discord, y compr
 1. Clonez ce dépôt sur votre machine locale :
 
     ```sh
-    git clone https://github.com/votre-utilisateur/discord-message-cleaner.git
+    git clone https://github.com/micferna/discord-message-cleaner.git
     cd discord-message-cleaner
     ```
 
