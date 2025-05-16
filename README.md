@@ -1,7 +1,10 @@
-![Logo Discord](https://zupimages.net/up/23/26/rumo.png)
-[Rejoignez le Discord !](https://discord.gg/rSfTxaW)
+<div align="center">
+  <p>Rejoignez-nous sur Discord pour obtenir de l'aide, donner votre avis et discuter !</p>
+  <a href="https://discord.gg/azar">
+    <img src="https://discord.com/api/guilds/1340354382235045978/widget.png?style=banner2" alt="Discord Banner" />
+  </a>
+</div>
 
-[![Utilisateurs en ligne](https://img.shields.io/discord/347412941630341121?style=flat-square&logo=discord&colorB=7289DA)](https://discord.gg/347412941630341121)
 ---
 
 # Discord Message Cleaner
